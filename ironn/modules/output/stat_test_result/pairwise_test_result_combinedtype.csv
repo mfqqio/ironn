@@ -1,0 +1,4 @@
+,Group1,Group2,SkewnessBlue,KurtosisBlue,MeanPixelBlue,SkewnessGreen,KurtosisGreen,MeanPixelGreen,SkewnessRed,KurtosisRed,MeanPixelRed,CountRejection
+0,DW,ORE,True,False,True,True,False,True,True,True,True,7
+1,CW,DW,False,False,True,True,False,True,True,False,True,5
+2,CW,ORE,True,True,True,False,False,False,False,True,True,5
