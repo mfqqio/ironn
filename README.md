@@ -1,7 +1,7 @@
 # ironn
 An image recognition project through a partnership between the University of British Columbia Master of Data Science program and Quebec Iron Ore
 
-<img src="docs/00_images/00_IRONN_logo_blue.png" align="right" height="50" width="150"/>
+<img src="imgs/00_IRONN_logo_blue.png" align="right" height="50" width="150"/>
 <br>
 Contributors: Jingyun Chen, Socorro Dominguez, Milos Milic, Aditya Sharma
 
