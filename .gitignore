@@ -1,1 +1,5 @@
 docs/
+.ipynb_checkpoints/
+.DS_Store
+__pycache__
+.pytest_cache
