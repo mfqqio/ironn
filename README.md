@@ -10,29 +10,13 @@ Contributors: Jingyun Chen, Socorro Dominguez, Milos Milic, Aditya Sharma
 
 This project has been developed in order for QIO to leverage Machine Learning (ML) techniques to improve ore yields while reducing operational costs. We are providing a Python package that contains a trained neural network that categorises Ore, Dilution Waste and Contamination Waste in candidate images to 85% accuracy. We are also providing two dashboard applications that can be used in assessing image quality.
 
-## Final Deliverables
-- [Product Presentation](https://gitlab.com/mfqqio/ubc_geodetection_review/blob/master/docs/06_Final_Presentation/Final_QIO_Presentation.pdf)
-- [Final Product Report](https://gitlab.com/mfqqio/ubc_geodetection_review/blob/master/docs/05_final_report/final_report.pdf)
-- [IRONN Documentation](https://gitlab.com/mfqqio/ubc_geodetection_review/blob/master/docs/07_user_manual/model_training.md)
-- [iCA Dashboard Documentation](https://gitlab.com/mfqqio/ubc_geodetection_review/blob/master/docs/07_user_manual/iCA_manual.md)
-- [iQA Dashboard Documentation](https://gitlab.com/mfqqio/ubc_geodetection_review/blob/master/docs/07_user_manual/iQA_manual.md)
-
 ## Repo Structure
 
 ```bash
     ubc_geodetection_review/
 ├── data
 │   ├── images
-│   └── tagfiles                                             # data: images + json tags
-├── docs                                                     # all docs (md/pdf)
-│   ├── 00_docs_images
-│   ├── 01_proposal_presentation
-│   ├── 02_proposal_report
-│   ├── 03_eda_reports
-│   ├── 04_mid_project_presentation
-│   ├── 05_final_report
-│   ├── 06_final_presentation
-│   └── 07_user_manual                       
+│   └── tagfiles                                             # data: images + json tags                   
 └── ironn                     
     ├── modules                                              # all modules for the package
     │   ├── arch                                             # model architectures used
@@ -56,31 +40,6 @@ Different types of blast and locations. Images are jpg or JPG format.
 
 #### Tagfiles
 Label files with coordinates of different rock types. Can be linked to the images files by name. Files come in JSON format.
-
-### Docs
-#### Docs Images
-Images that are used in all documents in this section.
-
-#### Proposal Presentation
-Proposal presentation that took place after having the problem introduced to us.
-
-#### Proposal Report
-Proposal report where we described the plan of action that we followed to tackle the problem.
-
-#### EDA Reports
-Reports that describe the colour analysis, EXIF Data analysis and other analysis that took place during the development of IRONN. These reports were done using Jupyter Notebooks.
-
-#### Mid Project Presentation
-Internal presentation to our partner where we presented what had been achieved in the first month of partnership.
-
-#### Final Report
-Final report that describes the results that IRONN achieved.
-
-#### Final Presentation
-Final presentation slides to UBC and to QIO where we showcased the success of IRONN.
-
-#### User Manual
-Instructions on how to install and use IRONN, iQA, and iCA.
 
 ### IRONN
 #### Modules
