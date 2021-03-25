@@ -12,4 +12,4 @@ pillow==6.0.0
 Flask-Caching==1.4.0
 python-dotenv==0.8.2
 matplotlib==3.1.0
-PyYAML==5.1
+PyYAML==5.4
