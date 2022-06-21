@@ -2,7 +2,7 @@ dash==0.36.0
 dash-html-components==0.13.5
 dash-core-components==0.43.0
 dash-renderer==0.17.0
-numpy==1.16.3
+numpy==1.22.0
 pandas==0.24.2
 plotly==2.7.0
 flask==1.0.1
